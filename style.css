@@ -1,0 +1,37 @@
+body {
+    background: #f2f6fc;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-box {
+    background: #ffffff;
+    border-left: 10px solid #20c997;
+    animation: zoomIn 0.5s ease-in-out;
+}
+
+.title {
+    color: #20c997;
+    font-weight: 700;
+}
+
+.result-box {
+    background: #e9f7ef;
+    border-left: 5px solid #198754;
+    transition: all 0.4s;
+}
+
+.result-box:hover {
+    background: #d4edda;
+    transform: scale(1.01);
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
